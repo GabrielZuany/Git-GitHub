@@ -2,19 +2,29 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
-
+h1{
+    text-align: center;
+}
 body{
-    background-color: rgb(204,157, 248);
+    background-color: rgba(68, 36, 248, 0.589);
 }
 
 main{
     background-color: white;
-    width: 500px;
+    width: 700px;
     margin:auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.413);
 }
+.logo1{
+    float:left;
+}
 
 .logo{
     float: right;
+}
+
+.conteudo{
+    position: relative;
+    left: 130px;
 }
